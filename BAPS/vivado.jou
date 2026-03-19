@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Mar 18 21:11:44 2026
+# Process ID         : 532
+# Current directory  : F:/BAPS/BAPS/BAPS
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent7384 F:\BAPS\BAPS\BAPS\BAPS.xpr
+# Log file           : F:/BAPS/BAPS/BAPS/vivado.log
+# Journal file       : F:/BAPS/BAPS/BAPS\vivado.jou
+# Running On         : Eddie
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33775 MB
+# Swap memory        : 9126 MB
+# Total Virtual      : 42902 MB
+# Available Virtual  : 15509 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/BAPS/BAPS/BAPS/BAPS.xpr
+update_compile_order -fileset sources_1
+close [ open F:/BAPS/BAPS/BAPS/BAPS.srcs/sources_1/new/aluStruct.vhd w ]
+add_files F:/BAPS/BAPS/BAPS/BAPS.srcs/sources_1/new/aluStruct.vhd
+update_compile_order -fileset sources_1
