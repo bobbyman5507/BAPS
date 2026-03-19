@@ -35,3 +35,11 @@ git
 git push
 git add .
 exec git add .
+git commit -m "Test"
+git config --global user.email "robert.orbin@gmail.com"
+git config --global user.name "Bobby Orbin"
+exec git add .
+git commit -m "Test"
+git push
+clear
+git add .

@@ -273,3 +273,44 @@ warning: in the working copy of 'BAPS/vivado.jou', LF will be replaced by CRLF t
 warning: in the working copy of 'BAPS/vivado.log', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'BAPS/vivado_pid3136.str', LF will be replaced by CRLF the next time Git touches it
 exec git add .
+warning: in the working copy of 'BAPS/vivado.jou', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BAPS/vivado.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BAPS/vivado_pid3136.str', LF will be replaced by CRLF the next time Git touches it
+git commit -m "Test"
+WARNING: [Common 17-259] Unknown Tcl command 'git commit -m Test' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Rober@bobbys_yoga_7.(none)')
+git config --global user.email "robert.orbin@gmail.com"
+WARNING: [Common 17-259] Unknown Tcl command 'git config --global user.email robert.orbin@gmail.com' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+git config --global user.name "Bobby Orbin"
+WARNING: [Common 17-259] Unknown Tcl command 'git config --global user.name Bobby Orbin' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+exec git add .
+warning: in the working copy of 'BAPS/vivado.jou', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BAPS/vivado.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BAPS/vivado_pid3136.str', LF will be replaced by CRLF the next time Git touches it
+git commit -m "Test"
+WARNING: [Common 17-259] Unknown Tcl command 'git commit -m Test' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+[main be85c76] Test
+ 5 files changed, 587 insertions(+), 25 deletions(-)
+ create mode 100644 BAPS/vivado.jou
+ create mode 100644 BAPS/vivado.log
+ create mode 100644 BAPS/vivado_pid3136.str
+git push
+WARNING: [Common 17-259] Unknown Tcl command 'git push' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+To https://github.com/bobbyman5507/BAPS.git
+   dc523af..be85c76  main -> main
+clear
+ERROR: [Common 17-53] User Exception: NoC compiler results cannot be obtained. Please open a block diagram  with NoC IP or an elaborated design before executing this command.
+git add .
+WARNING: [Common 17-259] Unknown Tcl command 'git add .' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.

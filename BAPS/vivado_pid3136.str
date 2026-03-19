@@ -256,3 +256,99 @@ setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add .", true); // 
 // Tcl Message: git add . 
 // Tcl Message: warning: in the working copy of 'BAPS/vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'BAPS/vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'BAPS/vivado_pid3136.str', LF will be replaced by CRLF the next time Git touches it 
 // HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:38:39 PM EDT
+// Tcl (Dont Echo) Command: 'rdi::info_commands {exe*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {exec*}'
+// Elapsed time: 10 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "exec git add .", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'exec git add .'
+// Tcl Message: exec git add . 
+// Tcl Message: warning: in the working copy of 'BAPS/vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'BAPS/vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'BAPS/vivado_pid3136.str', LF will be replaced by CRLF the next time Git touches it 
+// Tcl (Dont Echo) Command: 'rdi::info_commands {git*}'
+// Tcl (Dont Echo) Command: 'rdi::match_options {git} {}'
+// Tcl (Dont Echo) Command: 'rdi::match_options {git} {m}'
+// Elapsed time: 22 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git commit -m \"Test\"", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'git commit -m "Test"'
+// Tcl Message: git commit -m "Test" 
+// Tcl Message: Author identity unknown  *** Please tell me who you are.  Run    git config --global user.email "you@example.com"   git config --global user.name "Your Name"  to set your account's default identity. Omit --global to set the identity only in this repository.  fatal: unable to auto-detect email address (got 'Rober@bobbys_yoga_7.(none)') 
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 534, 80); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 534, 80, false, false, false, false, true); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 534, 80); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:39:19 PM EDT
+// Elapsed time: 18 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git config --global user.email \"robert.orbin@gmail.com\"", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'git config --global user.email "robert.orbin@gmail.com"'
+// Tcl Message: git config --global user.email "robert.orbin@gmail.com" 
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 547, 39); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 547, 39, false, false, false, false, true); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 547, 39); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 593, 44); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 623, 51); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 162, 192); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 612, 55); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 315, 85); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:39:59 PM EDT
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git config --global user.name \"Bobby Orbin\"", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'git config --global user.name "Bobby Orbin"'
+// Tcl Message: git config --global user.name "Bobby Orbin" 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:40:39 PM EDT
+// Elapsed time: 46 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "exec git add ."); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:41:20 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:42:00 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:42:41 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:43:21 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:44:02 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:44:42 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:45:23 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:46:03 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:46:44 PM EDT
+// Elapsed time: 363 seconds
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "exec git add ."); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'exec git add .'
+// Tcl Message: exec git add . 
+// Tcl Message: warning: in the working copy of 'BAPS/vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'BAPS/vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'BAPS/vivado_pid3136.str', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git commit -m \"Test\"", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'git commit -m "Test"'
+// Tcl Message: git commit -m "Test" 
+// Tcl Message: [main be85c76] Test  5 files changed, 587 insertions(+), 25 deletions(-)  create mode 100644 BAPS/vivado.jou  create mode 100644 BAPS/vivado.log  create mode 100644 BAPS/vivado_pid3136.str 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git push", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'git push'
+// Tcl Message: git push 
+// Tcl Message: To https://github.com/bobbyman5507/BAPS.git    dc523af..be85c76  main -> main 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 89 MB. Current time: 3/18/26, 8:47:25 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 87 MB. Current time: 3/18/26, 8:48:05 PM EDT
+// Elapsed time: 83 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 90 MB. Current time: 3/18/26, 8:48:46 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:49:26 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:50:07 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:50:47 PM EDT
+// Elapsed time: 145 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:51:28 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:52:08 PM EDT
+// Elapsed time: 93 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 974, 219); // cE (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+// Tcl (Dont Echo) Command: 'rdi::info_commands {cl*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {cle*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {clea*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "clear", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'clear'
+// Tcl Message: clear 
+// Tcl Message: ERROR: [Common 17-53] User Exception: NoC compiler results cannot be obtained. Please open a block diagram  with NoC IP or an elaborated design before executing this command. 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 89 MB. Current time: 3/18/26, 8:52:49 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:53:29 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 89 MB. Current time: 3/18/26, 8:54:09 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:54:49 PM EDT
+// Elapsed time: 127 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:55:30 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:56:10 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:56:51 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,083 MB. GUI used memory: 88 MB. Current time: 3/18/26, 8:57:31 PM EDT
