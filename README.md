@@ -5,7 +5,7 @@ Section 1 - ALU Infrastructure
 
 Bit Composition
 
-24-bit:
+24-bit Instruction
 
 Opcode: 8-bit
 
