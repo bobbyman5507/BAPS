@@ -12,6 +12,21 @@ end alu;
   
 architecture structural of alu is 
 
+component and
+  port(
+    A, B : in std_logic;
+    Y : out std_logic
+  );
+end component;
+
+component or
+  port(
+    A, B : in std_logic;
+    Y : out std_logic
+  );
+end component;
+
 begin
+
 
 end structural;
