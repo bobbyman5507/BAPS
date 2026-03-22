@@ -18,3 +18,8 @@ Rtarg: 4-bit
 immediate: 4-bit
 
 These bits are extra for large immediates
+
+Section 2 - Register Info
+
+    *8 16-bit registers
+ 

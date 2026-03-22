@@ -12,5 +12,6 @@ end alu;
   
 architecture structural of alu is 
 
-  
+begin
+
 end structural;
