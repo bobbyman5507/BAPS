@@ -1,9 +1,6 @@
 Imagine RIT 2026 - BAPS Processor
 Authors : Bobby Orbin, Anthony Rosati, Seth Taylor
 
-Imagine RIT 2026 - BAPS Processor
-Authors : Bobby Orbin, Anthony Rosati, Seth Taylor
-
 Section 1 - ALU Infrastructure
 
 Bit Composition
