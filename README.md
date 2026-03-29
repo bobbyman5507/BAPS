@@ -23,15 +23,15 @@ Bit Composition
 
 24-bit Instruction
 
-Opcode: 8-bit
+Opcode: 7-bit
 
-Rdest: 4-bit
+Rdest: 3-bit
 
-Rsrc: 4-bit
+Rx: 3-bit (or immediate)
 
-Rtarg: 4-bit
+Ry: 3-bit (or immediate)
 
-immediate: 4-bit
+
 
 These bits are extra for large immediates
 
