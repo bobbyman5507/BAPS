@@ -2,9 +2,6 @@ Imagine RIT 2026 - BAPS Processor
 Authors : Bobby Orbin, Anthony Rosati, Seth Taylor
 
 TO-DO: (Week of 3/22/26)
-    - Optimize opcode length
-    - Plan for mid-week: remake opcode sheet map  
-    
     -Anthony
         - structural MUX (after opcode optimization)
 
@@ -21,7 +18,7 @@ Section 1 - ALU Infrastructure
 
 Bit Composition
 
-24-bit Instruction
+16-bit Instruction
 
 Opcode: 7-bit
 
@@ -39,3 +36,7 @@ Section 2 - Register Info
 
     *8 16-bit registers
  
+
+ Section 2: Memory Architecture
+
+    This project utilizes an Arduino Uno R4 Wifi for its memoruy allocation. 
