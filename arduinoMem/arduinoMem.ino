@@ -1,21 +1,17 @@
-/* TO-DO:
-  -Pin setup
-  -Memory data structure setup
-  -Read/writeability
-*/
+short int mem[64];
+int w_en;
+const int writePin = 18;
+void setup() 
+{
+  // writePin, always input
+  pinMode(writePin, INPUT);
 
-#include <EEPROM.h>
-
-char address;
-
-void setup() {
-  // put your setup code here, to run once:
-  for (int i = 0 ; i < EEPROM.length(); i++) {
-    EEPROM.write(i, 0);
+  for (int i = 1; i <= 17; i++) {}
+    pinMode(i, INPUT);
   }
 }
 
-void loop(char address) {
+void loop() {
   // put your main code here, to run repeatedly:
-  short data = myMem[address - '0'];
+  
 }
