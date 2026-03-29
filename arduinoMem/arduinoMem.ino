@@ -12,6 +12,11 @@ void setup()
 }
 
 void loop() {
+  
+  //every pin has 1 bit
+
+  
+
   // set pins for current cycle
   w_en = digitalRead(writePin);
   if (w_en == HIGH) {
@@ -25,5 +30,7 @@ void loop() {
       pinMode(i, OUTPUT);
     }
   }
+
   
+
 }
