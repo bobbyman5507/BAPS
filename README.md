@@ -40,3 +40,7 @@ Section 2 - Register Info
  Section 2: Memory Architecture
 
     This project utilizes an Arduino Uno R4 Wifi for its memoruy allocation. 
+
+
+
+Figure out common 
