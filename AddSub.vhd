@@ -9,7 +9,7 @@ entity addSub is
     port(
         a   : in  std_logic_vector(N-1 downto 0);
         b   : in  std_logic_vector(N-1 downto 0);
-        sel : in  std_logic; -- 0 = add, 1 = subtract
+        sel : in  std_logic; -- 0 = add, 1 = subtract input coming from ALU 
         y   : out std_logic_vector(N-1 downto 0);
         cout: out std_logic
     );
