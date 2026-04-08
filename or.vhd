@@ -1,13 +1,15 @@
 libary ieee;
 use ieee.std_logic_1164.all;
 
-entity or is
+entity orN is
+  generic(
+    N : integer : 16
+  )
   port(
-    A, B : in std_logic;
-    Y : out std_logic
+    A, B : in std_logic_vector(N-1 downto 0);
+    Y : out std_logic_vector(N-1 downto 0);
   );
-end or;
-
+end orN;
 architecture structural of or is
 
 begin
