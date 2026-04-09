@@ -102,7 +102,7 @@ begin
         )
         port map (
             A     => A,
-            shamt => B(M-1 downto 0),
+            shiftamt => B(M-1 downto 0),
             Y     => sll_out
         );
 
@@ -114,7 +114,7 @@ begin
         )
         port map (
             A     => A,
-            shamt => B(M-1 downto 0),
+            shiftamt => B(M-1 downto 0),
             Y     => srl_out
         );
 
