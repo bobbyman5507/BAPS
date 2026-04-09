@@ -43,4 +43,11 @@ Section 2 - Register Info
 
 
 
-Figure out common 
+Inputs for game:
+
+    *1 + 5 = 5
+    *67 - 25 = 41 
+    *5 + 5 = 10
+    *20 - 3 = 17
+    *255 - 20 = 235
+    
