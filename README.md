@@ -43,11 +43,47 @@ Section 2 - Register Info
 
 
 
-Inputs for game:
+Inputs for game: (10 things, 3 levels of difficulty)
 
-    *1 + 5 = 5
-    *67 - 25 = 41 
-    *5 + 5 = 10
-    *20 - 3 = 17
-    *255 - 20 = 235
+
+    -- easy
+    * 1 + 5 = 5
+        00000001 + 00000101 = 00000110 
+
+    * 5 + 5 = 10
+        00000110 + 00000110 = 00001010   
+
+    * 20 - 3 = 17
+        00010100 - 00000011 = 00010001 
+
+    -- medium
+    * 5 and 6 = 6
+        00000101 - 00000110 = 00000100
+
+    * 11 or 127 = 127
+        00001011 or 01111111 = 01111111
+
     
+
+    -- hard
+    * 100 xor 24 = 124
+        01100100 xor 00011000 = 01111110  
+
+
+HARDWARE:
+
+    - WIRE COLOR CODING
+
+        --Full Adder/Subtractor
+            -Red: Carry bit(s)
+            -Blue: B Input
+            -Yellow: A Input
+            -Black: Sum Output    
+
+    - FIRST 4-bit adder:
+        -(notation is (XOR pin => FADDER pin) )
+        - 1Y => B1
+        - 3Y => B2
+        - 2T => B4 
+        - 4Y => B3  
+ 
