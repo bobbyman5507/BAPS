@@ -82,8 +82,8 @@ HARDWARE:
 
     - FIRST 4-bit adder:
         -(notation is (XOR pin => FADDER pin) )
-        - 1Y => B1
-        - 3Y => B2
-        - 2T => B4 
+        - 1Y => B4
+        - 2Y => B1 
+        - 3Y => B2 
         - 4Y => B3  
  
